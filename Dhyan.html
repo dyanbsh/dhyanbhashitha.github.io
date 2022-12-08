@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="Dhyan" content="with=device-width, initial-scale=1.0">
+    <title>Home | Dhyan</title>
+    <link rel="stylesheet" href="Dhyan.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body>
+    <div class="video">
+        <video autoplay muted loop id="myVideo">
+            <source src="images/About Video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!--Navigation-->
+    <div class="content">
+        <div class="text-box">
+
+            <a href="#home"><img src="images/logo.jpg" id="navimg"></a>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#home" id="active"><font size="+2">Home</font></a></li>
+                    <li><a href="#about"><font size="+2">About</font></a></li>
+                    <li><a href="#photography"><font size="+2">Photography</font></a></li>
+                    <li><a href="#services"><font size="+2">Services</font></a></li>
+                    <li><a href="#contactme"><font size="+2">Contact me</font></a></li>
+                </ul>
+            </div>
+
+
+
+            <!--Home-->
+            <section id="home">
+
+                <h1>Dhyan</h1>
+                <h1>Bhashitha</h1>
+                <br>
+                <h3><br>Software Engineering Undergraduate | Photographer | Graphic Designer</h3>
+
+                <br><br><br><br><br><br>
+                <img src="images/name1.png" width="600px" height="220px">
+
+            </section>
+
+
+
+        </div>
+    </div>
+
+
+
+    <!--About-->
+    <section id="about">
+        <div class="heading">
+
+            <h1>About</h1>
+        </div>
+
+        <div class="banner">
+            <div class="banner-content container-fluid">
+                <br>
+                <div>
+                    <p>
+                        Dhyan Bhashitha, a Software Engineering Undergraduate at General Sir John Kotelawala Defense University from Intake 39.
+                        He is a Co-Director for Information Technology at the Rotaract Club of KDU.<br><br>
+
+                        Dhyan completed his O/L's in 2016 and completed his A/L's in 2019 as a student of Rahula College.<br><br>
+
+                        He is a music lover and a dog lover. He completed the Sangeeth Visharad examination as a Indian classical violin player.
+                        Also he is an ameture photographer who loves nature photography and photo creations.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <center>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+            <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+            <script>
+                var xValues = ["Java Script", "CSS", "HTML", "Java", "C++", " "];
+                var yValues = [4, 3, 8, 7, 6, 0];
+                var barColors = ["#00E0C6", "#00E0C6", "#00E0C6", "#00E0C6", "#00E0C6"];
+
+                new Chart("myChart", {
+                    type: "bar",
+                    data: {
+                        labels: xValues,
+                        datasets: [{
+                            backgroundColor: barColors,
+                            data: yValues
+                        }]
+                    },
+                    options: {
+                        legend: { display: false },
+                        title: {
+                            display: true,
+                            text: "Skill"
+                        }
+                    }
+                });
+            </script>
+        </center>
+
+        <br><br><br>
+
+    </section>
+
+
+
+    <!--Photography-->
+    <section id="photography">
+        <div class="img">
+            <div class="img-content container-fluid">
+                <div class="heading">
+                    <br><br><br>
+                    <h1>My Clicks...</h1>
+                </div>
+
+                <div class="photos">
+                    <div class="gallery">
+                        <a href="images/6.png" download>
+                            <img src="images/6.png" alt="Vesak" class="image" width="600" height="400">
+                            <div class="overlay" style="background-color: #250e02;">
+                                <div class="text"><b style="font-size: 25px;">True Vesak</b><br><br>Shows the true meaning of Vesak</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery">
+                        <a href="images/7.png" download>
+                            <img src="images/7.png" alt="Spider" class="image" width="600" height="400">
+                            <div class="overlay" style="background-color: #5d4b2b;">
+                                <div class="text"><b style="font-size: 25px;">Spider</b><br><br>The natural hunter with a homemade net</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery">
+                        <a href="images/8.png" download>
+                            <img src="images/8.png" alt="Car" class="image" width="600" height="400">
+                            <div class="overlay" style="background-color: #fda61c;">
+                                <div class="text"><b style="font-size: 25px;">Old Gold</b><br><br>An old travelling car with stuff</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery">
+                        <a href="images/10.png" download>
+                            <img src="images/10.png" alt="Black and White" class="image" width="600" height="400">
+                            <div class="overlay" style="background-color: #55FF33;">
+                                <div class="text"><b style="font-size: 25px;">The alone traveler</b> <br><br>Representing our life journey</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery">
+                        <a href="images/9.png" download>
+                            <img src="images/9.png" alt="Flower" class="image" width="600" height="400">
+                            <div class="overlay" style="background-color: #F8FC00;">
+                                <div class="text"><b style="font-size: 25px;">Baby Flower</b> <br><br>Softness, Water & Curves</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery">
+                        <a href="images/1.png" download>
+                            <img src="images/1.png" alt="Forrest" class="image" width="600" height="400">
+                            <div class="overlay" style="background-color: #185406;">
+                                <div class="text"><b style="font-size: 22px;">Forest</b><br><br>Nature brings the relaxation</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery">
+                        <a href="images/2.png" download>
+                            <img src="images/2.png" alt="Sunset" class="image" width="600" height="400">
+                            <div class="overlay" style="background-color: #828702;">
+                                <div class="text"><b style="font-size: 22px;">Sunset</b><br><br>With a cloud party</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery">
+                        <a href="images/3.png" download>
+                            <img src="images/3.png" alt="Lightning" class="image" width="600" height="400">
+                            <div class="overlay" style="background-color: #8c0d0d;">
+                                <div class="text"><b style="font-size: 22px;">Oil Bubbles</b><br><br>Colors & reflections</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery">
+                        <a href="images/4.png" download>
+                            <img src="images/4.png" alt="Love" class="image" width="600" height="400">
+                            <div class="overlay" style="background-color: #FA2FC0;">
+                                <div class="text"><b style="font-size: 25px;">Love</b> <br><br>It will bring you to the heaven</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="gallery">
+                        <a href="images/5.png" download>
+                            <img src="images/5.png" alt="Lightning" class="image" width="600" height="400">
+                            <div class="overlay" style="background-color: #38F0F9;">
+                                <div class="text"><b style="font-size: 25px;">Lightnings</b> <br><br>You can find a silver line, even in the dark</div>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+
+
+
+    <!--services-->
+    <section id="services">
+
+        <div class="port">
+            <div class="heading1">
+                <br><br>
+                <h1>Services</h1>
+            </div>
+            <br><br>
+            <div class="row">
+
+
+                <div class="card">
+                    <img class="card-img-top" src="images/c1.png" alt="Card image" style="width:20%">
+                    <div class="card-body">
+                        <h4 class="card-title">Web Designing</h4>
+                        <div class="text-center">
+                            <a href="#contactme" class="btnc btnc-success">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+
+
+
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/c2.png" alt="Card image" style="width:20%">
+                    <div class="card-body">
+                        <h4 class="card-title">Graphic designing</h4>
+                        <div class="text-center">
+                            <a href="#contactme" class="btnc btnc-success">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+
+
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/c3.png" alt="Card image" style="width:20%">
+                    <div class="card-body">
+                        <h4 class="card-title">Software Designing</h4>
+                        <div class="text-center">
+                            <a href="#contactme" class="btnc btnc-success">Contact</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <br>
+
+        </div>
+
+    </section>
+
+
+
+    <br><br><br>
+    <p style="color: gray;" id="pp"><br>Download the CV from here...</p><br>
+    <div class="button">
+        <a href="images/cv.pdf" className="btncv btncv-outline" download>
+            <button id="B">Download</button>
+        </a>
+    </div>
+    <br><br><br><br><br><br>
+
+
+
+    <!--Contact-->
+    <section id="contactme">
+        <div class="heading2">
+            <h1>Contact me</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+
+                    <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+                        <div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Matara,+Sri+Lanka&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                        </div>
+                        <a class="google-maps" href="https://www.bootstrapskins.com/themes" id="make-map-data"></a>
+                        <style>
+                            #gmap-canvas img {
+                                max-height: none;
+                                max-width: none !important;
+                                background: none !important;
+                            }
+                        </style>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" id="D">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <section id="footer">
+        <div class="footer">
+            <a href="#home"><img src="images/logo.jpg" style="float:right;" height="80px" width="80px" id="fimg"></a>
+            <p id="fp">Mobile: <a href="mailto:076-3932043">076-3932043</a> | Facebook: <a href="https://www.facebook.com/profile.php?id=100009085552244&mibextid=ZbWKwL">Dyan Bhashitha</a> 
+            | Instagram: <a href="http://www.instagram.com/dyan_b_sh">dyan_b_sh</a> | Email: <a href="mailto:39-bse-0001@kdu.ac.lk">39-bse-0001@kdu.ac.lk</a></p>
+        </div>
+    </section>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbwcGj90mlzxE2tJmw1CXgwjJxufwfiRUjcaUGymdyGNnw-lu8HnQ9YFrf9Wlo6F39Zx/exec>'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+
+</html>
